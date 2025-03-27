@@ -1,0 +1,8 @@
+Dictionary view objects 
+The objects returned 
+by dict.keys(), dict.values() and dict.items() are view objects. They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes. 
+
+
+1. dictionary-name.keys() 
+2. dictionary-name.values() 
+3. dictionary-name.items() 

@@ -1,0 +1,7 @@
+Removing or deleting items from dictionary 
+There are various methods of deleting or removing items from dictionary 
+
+1. Using del keyword 
+2. Using clear method 
+3. Using pop() method 
+4. Using popitem() method 

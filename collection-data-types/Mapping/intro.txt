@@ -1,0 +1,21 @@
+Mapping
+Python support only one mapping type called “dictionary” or dict class
+Dictionary is a mapping collection or data type.
+In dictionary data is organized as key and value pair.
+Key and value is called item of dictionary.
+Dictionary is collection of items, each time consist of two values
+1. Key
+2. Value
+A key mapped with one or more than one value.
+Duplicate keys are not allowed but duplicate values are allowed.
+Keys are immutable (OR) only immutable objects are used as key.
+Value can be mutable or immutable.
+Dictionary is mutable collection, after creating dictionary changes can be done.
+
+In application development dictionary is used to group individual objects where data is organized in key and value pair.
+
+
+2. Creating dictionary with items. Each item consists of key and value.
+This key and value is separated with : and each item is separated
+comma
+Syntax: {key:value,key:value,key:value,….}

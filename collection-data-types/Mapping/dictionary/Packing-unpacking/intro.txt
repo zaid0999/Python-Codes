@@ -1,0 +1,5 @@
+Packing and unpacking 
+
+Packing is process of grouping individual objects and storing inside one object 
+
+Unpacking is process reading individual objects from collection of objects 

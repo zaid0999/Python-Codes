@@ -1,0 +1,20 @@
+frozenset 
+ 
+frozenset is an immutable set. After creating frozenset changes 
+cannot done. Frozenset does not support mutable methods 
+1. add() 
+2. remove() 
+3. discard() 
+4. clear() 
+5. pop() 
+6. update() 
+7. difference_update() 
+8. … 
+In application development frozenset is used 
+1. represent immutable set 
+2. nested sets 
+How to create frozenset? 
+Frozenset is created in two ways 
+1. frozenset()  empty frozenset 
+2. frozenset(iterable)  this syntax create frozenset using existing 
+iterable
