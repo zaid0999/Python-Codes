@@ -1,0 +1,6 @@
+Local Variables 
+ 
+The variables created inside function are called local variables. 
+The scope of these variables within function and these variables cannot accessible outside the function. 
+ 
+These variables are created when function is called or invoked and delete after execution of function. 

@@ -1,0 +1,5 @@
+The variables created outside function are called global variables 
+
+The scope of global variables within program and outside the program. 
+
+In application development global variables are used to share data between number of functions or programs. 
