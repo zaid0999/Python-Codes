@@ -1,0 +1,9 @@
+Function with default parameters or default arguments or optional parameter 
+ 
+Default parameters are given values at the time of defining function. 
+The values of these parameters are not given at the time invoking function, it assign default value.
+
+Syntax: 
+def <function-name>(param=value,param=value,param=value,..): 
+      statement-1 
+      statement-2 

@@ -1,0 +1,7 @@
+“return” is a branching statement or passes control statement 
+A function returns value to caling place or caler using return keyword. 
+Function which returns values is assigned to variable at the time of invoking or caling function 
+Return function after returning value, it terminates execution of function. 
+Always functions returns one object 
+
+Syntax: return <expression>/<variable> 
