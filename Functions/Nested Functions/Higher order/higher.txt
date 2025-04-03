@@ -1,0 +1,7 @@
+Higher order functions 
+A function which receives input as function is caled higher order function (OR) a function uses another function as input to perform operation is caled higher order function.
+ 
+Syntax: 
+def <function-name>(param, param, param,…): 
+        statement-1 
+        statement-2 

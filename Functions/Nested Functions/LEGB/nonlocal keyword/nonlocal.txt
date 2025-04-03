@@ -1,0 +1,5 @@
+nonlocal keyword 
+ 
+“nonlocal” keyword is used inside inner function to modify or update local variables of outer function. Without nonlocal inner function can access non local variable but cannot update or modify. 
+ 
+Syntax: nonlocal variable-list 

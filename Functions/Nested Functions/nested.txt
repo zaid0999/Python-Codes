@@ -1,0 +1,22 @@
+Nested Functions 
+Defining function inside function is called nested function (OR) function within function is called nested function 
+ 
+Why Nested Functions? 
+     1. Hiding Function from other functions 
+     2. For developing special functions 
+        a. Decorators 
+        b. Closures 
+Syntax: 
+ 
+def <function-name>([<parameters>]):  # Outer  Function 
+ statement-1 
+         statement-2 
+         def <function-name>([parameters]): # Inner Function/Nested  
+              statement-1 
+              statement-2 
+ 
+Points to remember 
+1. Nested Function can access  local variables of outer function 
+2. Outer Function cannot access local variables of nested function or inner function 
+3. Inner function is accessible within outer function but cannot accessible outside outer function 
+4. Inner function can be accessible outside outer function, if outer function return reference of inner function

@@ -1,0 +1,21 @@
+LEGB 
+ 
+The LEGB rule in Python dictates the order in which the interpreter searches for variable names: Local, Enclosing, Global, Built-in.  
+ 
+LEGB stands 
+L  Local 
+E Enclosed  
+G Global 
+B Builtins 
+
+Local: 
+Python first checks if the variable is defined within the current  function or code block. 
+
+Enclosing: 
+If not found localy, it then looks in the scope of any enclosing functions (nested functions). 
+
+Global:
+If the variable isn't in the local or enclosing scope, it checks the global scope (variables defined at the top level of the script). 
+
+Built-in: 
+Fina ly, if the variable is not found in any of the above scopes, Python searches for it in the built-in scope (Python's pre-defined functions and objects).
