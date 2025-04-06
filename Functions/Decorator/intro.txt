@@ -1,0 +1,48 @@
+Decorator 
+Decorator is a special function in python.  
+Decorator is nested function which receives input as function and return output as another function. 
+In Python, decorators are a powerful way to extend the behavior of functions or classes without directly modifying them, using functions that wrap another function and add functionality. They are represented by the @ symbol folowed by the decorator name.  
+
+Decorators are a type of "meta-function" that takes a function as input, modifies its behavior, and returns a new function (or class).  
+
+How they work: 
+● You define a decorator function that takes another function as an argument.  
+● Inside the decorator, you define a wrapper function that wi l execute before or after the original function.  
+● The decorator returns the wrapper function, which is then used to "decorate" the original function.  
+
+Decorators are 2 types 
+1. Predefined decorators 
+2. User defined decorators 
+
+Predefined decorators 
+Existing decorators or decorators provided by python are caled predefined decorators 
+Example: 
+@staticmethod,@classmethod,@abstractmethod,@property 
+
+User defined decorators 
+The decorators developed by programmer are caled user defined decorators, these application specific decorators. 
+
+Basic steps to work with decorators 
+1. Developing decorator 
+2. Applying decorator 
+
+Why use them: 
+Code Reusability: Decorators alow you to reuse common functionality across multiple functions.  
+Modularity: They promote a clean and modular codebase by separating concerns.  
+Readability: Decorators make code more readable by clearly indicating where additional functionality is added.  
+
+Applications 
+
+Function Decorators: You can use function decorators to add logging, timing, or authentication to functions.  
+Class Decorators: You can use class decorators to modify the behavior of classes, add new methods, or add new properties.
+
+Syntax of developing function decorator 
+
+def <decorator-function-name>(function): 
+    def wrapper_function(param,param,param): 
+      add extract functionality 
+      including original function 
+    return wrapper_function 
+    
+Applying decorator 
+Decorator can be applied using @decorator-function-name
