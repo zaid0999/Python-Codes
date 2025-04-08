@@ -1,0 +1,28 @@
+What is module? 
+A module is python program or file having extension .py 
+Every python program technicaly is caled one module. 
+An application is not one module or program, it is colection of modules or programs. 
+Modular programming alows dividing the content of application into number of programs, so that maintaining the code becomes easy and it also alows reusability between programs.
+
+Types of modules 
+Modules are 2 types 
+    1. Predefined modules 
+    2. User defined modules 
+
+Predefined modules 
+Existing modules are caled predefined modules (OR) modules provided by python or third party vendors are caled predefined modules. 
+Example: sys, os, datatime, calendar,… 
+Existing modules are also caled libraries 
+
+User defined modules 
+The modules developed by programmer are caled user defined modules. These are application specific modules 
+
+How to use the content of one module inside another module? 
+The content of one module can be used inside another module using “import” keyword. 
+
+Syntax1: import module-name 
+Syntax2: import module-name as alias-name 
+Syntax3: from <module-name> import * 
+Syntax4: from <module-name> import identifier, identifier,… 
+Syntax5: from <module-name> import <identifier> as <alias-name> 
+Syntax6: import module-name, module-name 
