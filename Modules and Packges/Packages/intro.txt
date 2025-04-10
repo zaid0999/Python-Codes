@@ -1,0 +1,29 @@
+Packages
+
+What is package?
+Package is a collection of modules (.py) files.
+Technically a package is nothing but folder, which consist of .py files.
+Packaging is nothing organizing modules according to their operations into folders.
+
+Advantage of packages
+    1. Hiding modules and modules functionality
+    2. Maintaining the code becomes easy
+
+The package contains a special module __init__.py
+This module is referred with package name. This module is imported automatically with package name.
+This module is called package configuration module or file.
+
+Types of packages
+Packages are two types
+    1. Predefined packages
+    2. User defined packages
+
+Existing packages are called predefined packages(libraries), these are provided by python or third party vendors
+Example: numpy, pandas, matplotlib,scipy,…
+
+The packages created by programmer are called user defined packages, these are application specific packages.
+Example: bank, school,…
+
+How to create package?
+Creating package is nothing but creating a folder/directory inside
+this folder or directory one special module is added __init__.py
