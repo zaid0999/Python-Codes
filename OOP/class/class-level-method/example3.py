@@ -21,3 +21,9 @@ class Account:
 
 acc1=Account(101,"naresh",60000)
 acc1.print_account()
+acc1.deposit(5000)
+acc1.print_account()
+acc1.withdraw(90000)
+acc1.withdraw(45000)
+acc1.print_account()
+Account.setminbal(2000)
