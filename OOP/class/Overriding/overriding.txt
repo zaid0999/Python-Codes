@@ -1,0 +1,6 @@
+Method Overriding
+
+Defining method inside derived class with same name and parameters of method exists in base class is caled method overriding. 
+Method overriding alows provide different implementation of base class methods inside derived class. 
+Method overriding alows modifying or extending functionality of base class method within derived class. 
+Method overriding is belongs to instance methods. 
