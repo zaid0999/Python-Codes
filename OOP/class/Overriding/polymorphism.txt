@@ -1,7 +1,0 @@
-What is Polymorphism? 
-
-“Poly” means “Many” and “Morphism” is “Forms”, Defining one thing in many forms is caled polymorphism 
-
-Python support polymorphism in two ways 
-1. Method Overriding 
-2. Operator Overloading 
